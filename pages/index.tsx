@@ -1,4 +1,9 @@
+import { Tweet } from "../components/Tweet";
 // JSX - Javascript + XML (HTML)
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <Tweet />
+    </div>
+  );
 }
