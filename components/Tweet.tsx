@@ -1,8 +1,8 @@
-export function Tweet() {
+export function Tweet(props) {
   return (
     <div>
       <h1>Tweet</h1>
-      <p>Banana</p>
+      <p>{props.text}</p>
     </div>
   );
 }
